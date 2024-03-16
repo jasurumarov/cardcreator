@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1120px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.cards-container {
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 60px;
+  background: url("../images/gradient.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body form {
+  border-radius: 12px;
+  padding: 40px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+body form h1 {
+  letter-spacing: -2px;
+  margin-bottom: -10px;
+}
+body form .name-mail {
+  display: flex;
+  gap: 40px;
+}
+body form .name-mail div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body form .name-mail div label {
+  font-size: 15px;
+}
+body form .name-mail div input {
+  width: 480px;
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+body form .job {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body form .job label {
+  font-size: 15px;
+}
+body form .job input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+body form .education {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body form .education label {
+  font-size: 15px;
+}
+body form .education input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+body form .message {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body form .message label {
+  font-size: 15px;
+}
+body form .message textarea {
+  width: 1000px;
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  font-size: 18px;
+  padding: 20px 30px;
+  resize: vertical;
+}
+body form button {
+  padding: 20px 40px;
+  border: none;
+  align-self: center;
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(to right, #4a94f3, #53c13c);
+  cursor: pointer;
+}
+body .cards-group {
+  margin-top: 164px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body .cards-group .card {
+  border-radius: 20px;
+  background: white;
+  width: 334px;
+  padding: 16px 40px 36px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #f0f0f0;
+}
+body .cards-group .card div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #767272;
+}
+body .cards-group .card h3 {
+  font-size: 28px;
+}
+body .cards-group .card h4 {
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 18px;
+}
+body .cards-group .card p {
+  font-size: 14px;
+}
+body .cards-group .card h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+body .cards-group .card button {
+  font-weight: 600;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+}
+body .cards-group .card h5 {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Card Creator</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>GET IN TOUCH</h1>
+            <div class="name-mail">
+                <div class="name">
+                    <label for="name">Tell us your name *</label>
+                    <input class="name-input" required type="text" placeholder="Enter your name">
+                </div>
+                <div class="email">
+                    <label for="email">Enter your email *</label>
+                        <input class="email-input" required type="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="job">
+                <label for="job">Your job</label>
+                <input class="job-input" type="text" placeholder="Enter your job">
+            </div>
+            <div class="education">
+                <label for="education">Education</label>
+                <input class="education-input" type="text" placeholder="Enter your university">
+            </div>
+            <div class="message">
+                <label for="message">Message</label>
+                <textarea class="message-input" name="message" cols="30" rows="7" placeholder="Your message here..."></textarea>
+            </div>
+            <button class="submit-btn" type="submit">SUBMIT</button>
+        </form>
+
+
+    </div>
+    <div class="cards-container">
+        <div class="cards-group">
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
